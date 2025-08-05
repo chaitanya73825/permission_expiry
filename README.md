@@ -45,11 +45,8 @@ Transform how permissions are managed in Web3 by delivering a secure, user-frien
 
 ## **🚀 Deployment Information**
 
-- **📍 Contract Address:** `0x04bed719ed17ca5f75b59b928fa0f112be29bce72dccc287977c4d96a13ba2b5`
+- **📍 Contract Address:** `0x6d37f2d3e45e4803a3ca4b5c625ab50e3073f7d6284042e7e2aef33e45a42d68`
 - **🌍 Network:** Aptos Devnet
-- **📊 Status:** ✅ **ACTIVE & FUNCTIONAL**
-- **📅 Last Updated:** August 2025
-- **⚡ Gas Cost:** Starting from 1,500 gas units (~$0.01 USD)
 
 ## **💻 Quick Start**
 
@@ -69,11 +66,7 @@ npm run dev
 
 <div align="center">
 
-![Permission Expiry dApp Interface](images.png)
-
-![Aptos Blockchain Integration](public/aptos.png)
-
-*🚀 Permission Expiry dApp - Modern dark theme interface with secure Aptos blockchain integration*
+![alt text](ss.png)_🚀 Permission Expiry dApp - Modern dark theme interface with secure Aptos blockchain integration_
 
 </div>
 
