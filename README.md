@@ -64,24 +64,16 @@ npm run dev
 
 ## **📸 Screenshots**
 
+0x6d37f2d3e45e4803a3ca4b5c625ab50e3073f7d6284042e7e2aef33e45a42d68
+
 <div align="center">
 
 ![alt text](ss.png)\_🚀 Permission Expiry dApp - Modern dark theme interface with secure Aptos blockchain integration\_
 
 ![alt text](image.png)
 
+
 </div>
 
 ---
 
-## **🤝 Contributing**
-
-We welcome contributions! Feel free to submit pull requests, report bugs, or suggest new features.
-
-## **📜 License**
-
-This project is licensed under the MIT License.
-
----
-
-**🔥 Built with ❤️ on Aptos Blockchain • Securing the Future of Decentralized Access Control 🚀**
