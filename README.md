@@ -67,11 +67,15 @@ npm run dev
 
 ## **📸 Screenshots**
 
-![Permission Expiry dApp Interface](./images.png)
+<div align="center">
 
-![Aptos Blockchain Integration](./public/aptos.png)
+![Permission Expiry dApp Interface](images.png)
 
-*Permission Expiry dApp - Modern dark theme interface with secure blockchain integration*
+![Aptos Blockchain Integration](public/aptos.png)
+
+*🚀 Permission Expiry dApp - Modern dark theme interface with secure Aptos blockchain integration*
+
+</div>
 
 ---
 
