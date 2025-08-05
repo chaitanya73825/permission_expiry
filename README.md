@@ -1,18 +1,99 @@
-## Create Aptos Dapp Boilerplate Template
+# 🔐 Permission Expiry dApp
 
-The Boilerplate template provides a starter dapp with all necessary dapp infrastructure and a simple wallet info implementation, transfer APT and a simple message board functionality to send and read a message on chain.
+A sophisticated permission management system built on the Aptos blockchain with a stunning dark theme UI. This dApp enables time-based permission granting and automatic expiration with enterprise-grade security.
 
-## Read the Boilerplate template docs
+![Permission Expiry dApp](public/aptos.png)
 
-To get started with the Boilerplate template and learn more about the template functionality and usage, head over to the [Boilerplate template docs](https://learn.aptoslabs.com/en/dapp-templates/boilerplate-template)
+## ✨ Features
 
-## The Boilerplate template provides:
+### 🚀 Core Functionality
 
-- **Folder structure** - A pre-made dapp folder structure with a `frontend` and `contract` folders.
-- **Dapp infrastructure** - All required dependencies a dapp needs to start building on the Aptos network.
-- **Wallet Info implementation** - Pre-made `WalletInfo` components to demonstrate how one can use to read a connected Wallet info.
-- **Transfer APT implementation** - Pre-made `transfer` components to send APT to an address.
-- **Message board functionality implementation** - Pre-made `message` components to send and read a message on chain
+- **Time-Based Permissions**: Grant permissions with automatic expiration
+- **Multiple Permission Types**: READ_ACCESS, WRITE_ACCESS, ADMIN_ACCESS, SPECIAL_ACCESS
+- **Smart Revocation**: Instant permission revocation capabilities
+- **Real-time Status**: Live permission validity checking
+- **Blockchain Security**: Immutable permission records on Aptos
+
+### 🎨 Modern UI/UX
+
+- **Dark Theme Design**: Professional dark mode with neon gradients
+- **Glassmorphism Effects**: Modern translucent card designs
+- **Smooth Animations**: Engaging hover effects and transitions
+- **Responsive Layout**: Works perfectly on all device sizes
+- **Interactive Components**: Real-time feedback and status updates
+
+### 🔧 Technical Excellence
+
+- **Smart Contract**: Written in Move language, deployed on Aptos Devnet
+- **React + TypeScript**: Type-safe frontend development
+- **Wallet Integration**: Seamless Aptos wallet connectivity
+- **Transaction Handling**: Robust error handling and user feedback
+- **View Functions**: Efficient blockchain data querying
+
+## 🏗️ Architecture
+
+### Smart Contract (Move)
+
+```
+contract/sources/permission_expiry.move
+- Permission granting with expiry timestamps
+- Admin-controlled permission management
+- Status tracking (ACTIVE, REVOKED, EXPIRED)
+- Comprehensive view functions
+```
+
+### Frontend (React + TypeScript)
+
+```
+frontend/
+├── components/          # Reusable UI components
+├── view-functions/      # Blockchain interaction
+├── utils/              # Helper functions
+└── constants.ts        # App configuration
+```
+
+## 🚀 Deployed Smart Contract
+
+**Contract Address**: `0x04bed719ed17ca5f75b59b928fa0f112be29bce72dccc287977c4d96a13ba2b5`
+**Network**: Aptos Devnet
+**Status**: ✅ Active and Functional
+
+## 💻 Quick Start
+
+### Prerequisites
+
+- Node.js 18+ and npm/yarn
+- Aptos wallet (Petra, Martian, etc.)
+- Connection to Aptos Devnet
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/chaitanya73825/permission_expiry.git
+cd permission_expiry
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 🔑 Core Functions
+
+### Permission Management
+
+- **Grant Permission**: Assign time-limited access rights
+- **Revoke Permission**: Instantly remove access
+- **Check Validity**: Real-time permission status verification
+- **View Details**: Complete permission information retrieval
+
+### Admin Features
+
+- **Initialize Registry**: Set up permission management system
+- **Admin Verification**: Secure admin role checking
+- **Bulk Operations**: Efficient multi-permission handling
 
 ## What tools the template uses?
 
