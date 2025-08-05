@@ -1,0 +1,14 @@
+[package]
+name = "PermissionExpiry"
+version = "1.0.0"
+authors = []
+
+[addresses]
+permission_expiry_addr = "0x04bed719ed17ca5f75b59b928fa0f112be29bce72dccc287977c4d96a13ba2b5"
+
+[dev-addresses]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", rev = "mainnet", subdir = "aptos-framework" }
+
+[dev-dependencies]
