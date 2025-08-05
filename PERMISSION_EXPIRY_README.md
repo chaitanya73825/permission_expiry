@@ -5,6 +5,7 @@ This is a decentralized application (dApp) built on Aptos Devnet that allows adm
 ## Features
 
 ### Smart Contract Features
+
 - **Initialize Permission Registry**: Set up the permission management system
 - **Grant Time-Limited Permissions**: Assign permissions with automatic expiry timestamps
 - **Revoke Permissions**: Manually revoke permissions before expiry
@@ -13,6 +14,7 @@ This is a decentralized application (dApp) built on Aptos Devnet that allows adm
 - **Event Logging**: All permission changes are logged as blockchain events
 
 ### Frontend Features
+
 - **Wallet Integration**: Supports Petra wallet and other Aptos-compatible wallets
 - **Intuitive Interface**: Easy-to-use forms for permission management
 - **Real-time Status**: Live updates on permission validity and status
@@ -22,11 +24,13 @@ This is a decentralized application (dApp) built on Aptos Devnet that allows adm
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js v16 or higher
 - Petra wallet or another Aptos-compatible wallet
 - Some APT tokens for transaction fees on Aptos Devnet
 
 ### Installation
+
 1. Clone the repository
 2. Install dependencies:
    ```bash
@@ -39,6 +43,7 @@ This is a decentralized application (dApp) built on Aptos Devnet that allows adm
    ```
 
 ### Running the dApp
+
 1. Start the development server:
    ```bash
    npm run dev
@@ -49,19 +54,25 @@ This is a decentralized application (dApp) built on Aptos Devnet that allows adm
 ### Deploying the Smart Contract
 
 #### Testing
+
 Run the Move tests:
+
 ```bash
 npm run move:test
 ```
 
 #### Compilation
+
 Compile the Move contract:
+
 ```bash
 npm run move:compile
 ```
 
 #### Publishing
+
 Deploy to Aptos Devnet:
+
 ```bash
 npm run move:publish
 ```
@@ -110,6 +121,7 @@ npm run move:publish
 ## Technical Architecture
 
 ### Smart Contract (Move)
+
 - **Module**: `permission_expiry`
 - **Key Structures**:
   - `Permission`: Stores permission details
@@ -122,6 +134,7 @@ npm run move:publish
   - `view_permission()`: Get permission details
 
 ### Frontend (React + TypeScript)
+
 - **Framework**: React with TypeScript
 - **Wallet Integration**: Aptos Wallet Adapter
 - **UI Components**: Tailwind CSS with custom components
@@ -144,6 +157,7 @@ npm run move:publish
 ## Error Handling
 
 The dApp provides clear error messages for:
+
 - Wallet connection issues
 - Transaction failures
 - Invalid permission operations
@@ -152,6 +166,7 @@ The dApp provides clear error messages for:
 ## Development
 
 ### Project Structure
+
 ```
 ├── contract/
 │   ├── sources/
@@ -174,21 +189,26 @@ The dApp provides clear error messages for:
 ```
 
 ### Contributing
+
 1. Fork the repository
 2. Create a feature branch
 3. Write tests for new functionality
 4. Submit a pull request
 
 ## License
+
 This project is licensed under the Apache 2.0 License.
 
 ## Support
+
 For issues and questions:
+
 1. Check the Aptos documentation
 2. Review the Move language guide
 3. Join the Aptos Discord community
 
 ## Roadmap
+
 - [ ] Batch permission operations
 - [ ] Permission inheritance
 - [ ] Role-based permissions
