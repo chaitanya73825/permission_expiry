@@ -66,7 +66,9 @@ npm run dev
 
 <div align="center">
 
-![alt text](ss.png)_🚀 Permission Expiry dApp - Modern dark theme interface with secure Aptos blockchain integration_
+![alt text](ss.png)\_🚀 Permission Expiry dApp - Modern dark theme interface with secure Aptos blockchain integration\_
+
+![alt text](image.png)
 
 </div>
 
